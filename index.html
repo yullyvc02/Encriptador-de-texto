@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="imagenes/Icono 4.ico">
+    <title>Encriptador de texto</title>
+    
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img class="logo" src="imagenes/Icono 1.png" alt="logo">
+        </header>
+        <main>
+            <section class="input-section">
+                <textarea class="text-area" placeholder="Ingrese el texto aquí"></textarea>
+                <div class="warning">
+                    <img class="advertencia" src="imagenes/Icono 2.png" alt="advertencia">
+                    <p class="informacion">Solo letras minúsculas y sin acentos</p>
+                </div>
+                <div class="botones">
+                    <button class="btn-encriptar">Encriptar</button>
+                    <button class="btn-desencriptar">Desencriptar</button>
+                </div>
+            </section>
+            <section class="result-section">
+                <div class="initial-message">
+                    <h3>Ningún mensaje fue encontrado</h3>
+                    <p>Ingresa el texto que desees encriptar o desencriptar</p>
+                    
+                </div>
+                <textarea class="mensaje" readonly></textarea>
+                <button class="btn-copiar" style="display: none;">Copiar</button>
+            </section>
+        </main>
+    </div>
+<footer>
+        <p>Realizado por Yully Garzón </p>
+        <p>&copy; 2024 Todos los derechos reservados</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
